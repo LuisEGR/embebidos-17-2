@@ -15,3 +15,5 @@
 4. Reportar las actividades con imágenes PNG de cada modo y un documento markdown.
 
 5. Revisar el enlace [Mastering Markdown] (https://guides.github.com/features/mastering-markdown/).
+
+6. El reporte se debe subir a github el viernes 24 de febrero del 2017 a mas tardar a las 23:59:59.
