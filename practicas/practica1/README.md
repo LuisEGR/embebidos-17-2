@@ -1,5 +1,7 @@
 ## Práctica 1 ##
 
+# AQUI TENGO QUE AGREGAR EL CONTENIDO DE LA PRÁCTICA #
+
 1. En esta práctica deben probar tres modos de acceder a la tarjeta RaspberryPi 3:
 	* Cargar la imagen de raspbian en una memoria SD al menos clase 10 de 8 GB.
 	* Comprobar el funcionamiento conectando Monitor, teclado y ratón.
