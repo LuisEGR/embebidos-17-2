@@ -12,7 +12,8 @@ Solo hay que conectar un monitor por el puerto **HDMI** y un teclado para poder 
 
 Para **SSH** hay que tener conexión con la Raspberry Pi, en nuestro caso usamos una red local, una vez que encontramos la dirección ip de nuestra tarjeta, solo ejecutamos el comando:
 ```shell
-ssh pi@192.168.43.220 ```
+ssh pi@192.168.43.220
+```
 
 en donde **192.168.43.220** correcponde a la ip de la Raspberry Pi, luego de eso se nos solicita la contraseña y por defecto, si no se ha modificado, es **raspberry**.
 
