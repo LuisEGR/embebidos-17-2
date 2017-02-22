@@ -11,6 +11,7 @@ DESTDIR=/usr/local/bin
 CFLAGS=-Wall
 LDFLAGS=-lm
 CC=gcc
+OBJS=$(patsubst %.c,%.o,$(wildcard *.c))
 
 all:$(PROYECTO)
 
@@ -27,7 +28,7 @@ all:$(PROYECTO)
 # 	$(CC) -c archivos.c $(CFLAGS)
 
 ### BUSCAR COMO GENERALIZAR ESTA LINEA: (WILDCARD)
-$(PROYECTO): muestreo.o procesamiento.o archivos.o
+$(PROYECTO): $(OBJS)
 	$(CC) $^ -o $@ $(LDFLAGS)
 	#$(CC) muestreo.o procesamiento.o archivos.o -o $(PROYECTO) $(LDFLAGS)
 
