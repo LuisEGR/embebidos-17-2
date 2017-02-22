@@ -15,10 +15,19 @@ Para **SSH** hay que tener conexión con la Raspberry Pi, en nuestro caso usamos
 ssh pi@192.168.43.220
 ```
 
-en donde **192.168.43.220** correcponde a la ip de la Raspberry Pi, luego de eso se nos solicita la contraseña y por defecto, si no se ha modificado, es **raspberry**.
+en donde **192.168.43.220** corresponde a la ip de la Raspberry Pi, luego de eso se nos solicita la contraseña y por defecto, si no se ha modificado, es **raspberry**.
 
 ![RaspberryHDMI](https://raw.githubusercontent.com/LuisEGR/embebidos-17-2/788d264a0adef514dda11da6d7e1153b7ec77506/practicas/practica1/LuisEGR/img/via_ssh.jpg "LRaspberry Pi SSH")
 
+
+### 3.- Vía UART - Serial ###
+
+En cuanto a la conexión por UART solo hay que modificar el archivo */dev/config.txt* para habilitar la conexión por UART, haciendo uso de un módulo FT232 conectamos a otra computadora, o a otra raspberry en nuestro caso, y mediante el comando *screen* tenemos acceso a la terminal de nuestra tarjeta.
+
+
+![RaspberryUART1](https://raw.githubusercontent.com/LuisEGR/embebidos-17-2/master/practicas/practica1/LuisEGR/img/serial1.jpg "UART1")
+
+![RaspberryUART2](https://raw.githubusercontent.com/LuisEGR/embebidos-17-2/master/practicas/practica1/LuisEGR/img/serial2.jpg "UART2")
 
 ### Fin ###
 ![Perro](https://raw.githubusercontent.com/LuisEGR/embebidos-17-2/788d264a0adef514dda11da6d7e1153b7ec77506/practicas/practica1/LuisEGR/img/perro.jpg "#TeamPerro")
